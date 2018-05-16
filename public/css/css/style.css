@@ -1,0 +1,79 @@
+
+
+div.search span,
+div.search input[name="keyword"] {
+  display: block;
+}
+
+div.search input[name="keyword"] {
+  margin-top: 4px;
+}
+
+div.panel {
+  margin-bottom: 15px;
+}
+
+div.panel .panel-body p:last-child {
+  margin-bottom: 0;
+}
+
+mark {
+  padding: 0;
+  background: transparent;
+  background: linear-gradient(to right, #138D75 50%, transparent 50%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: all .5s ease;
+  color: #fff;
+}
+
+mark.animate {
+  background-position: left bottom;
+  transition: all .5s ease;
+  background: #138D75;
+  color: #000;
+}
+
+#myTable {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+#myTable tr td {
+  border: 1px solid #ddd;
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+.myInput2 {
+  /*background-position: 10px 10px;*/
+  /*background-repeat: no-repeat;*/
+  width: 100%;
+  /*font-size: 16px;*/
+  /*padding: 12px 20px 12px 40px;*/
+  /*border: 1px solid #ddd;*/
+  /*margin-bottom: 12px;*/
+  box-shadow: none !important;
+  border: 2px solid #ccc;
+  display: block;
+  height: 34px;
+  /*padding: 6px 12px;*/
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);*/
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.myInput2:hover, .myInput2:focus, .myInput2:active {
+  outline: none;
+  box-shadow: none !important;
+  border-color: #139D75;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}

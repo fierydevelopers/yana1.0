@@ -1,0 +1,10 @@
+id,name,size,state,image_path,class
+Monash University,Monash University,40,VIC,logo/Monash.png,MOU
+RMIT,RMIT,35,VIC,logo/RMIT.png,RM
+Deakin,Deakin Unievrsity,26,VIC,logo/Deakin.png,DK
+La Trobe University,La Trobe University,38,VIC,logo/LaTrobe.jpg,LT
+The University of Melbourne,The University of Melbourne,36,VIC,logo/MelUni.jpg,MEU
+Victoria University,Victoria University,33,VIC,logo/Victoria.jpg,VU
+Australian Catholic University,Australian Catholic University,27,VIC,logo/ACU.png,AC
+Federation University,Federation University,20,VIC,logo/Federation.jpg,FU
+Swinburne University,Swinburne University,20,VIC,logo/Swinbourne.png,SU
